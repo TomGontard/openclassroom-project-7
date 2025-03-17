@@ -18,11 +18,12 @@ const BannerWrapper = styled.div`
     content: '';
     position: absolute;
     inset: 0;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
     border-radius: 25px;
   }
 
-  @media (max-width: 600px) {
+  @media (max-width: 768px) {
+    height: 120px;
     margin-bottom: 20px;
   }
 `
@@ -34,14 +35,15 @@ const BannerTitle = styled.h1`
   z-index: 2;
 
   @media (max-width: 768px) {
-    font-size: 24px;
+    font-size: 20px;
     padding: 0 10px;
+    text-align: left;
   }
 `
 
 export default function Banner({ source, children }) {
   return (
-    <BannerWrapper style={{ backgroundImage: `url(${source})` }}>
+    <BannerWrapper source={source}>
       {children && <BannerTitle>{children}</BannerTitle>}
     </BannerWrapper>
   )

@@ -11,6 +11,10 @@ const ErrorWrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+  @media only screen and (max-width: 600px) {
+    height: 600px;
+  }
 `
 
 const ErrorTitle = styled.h1`

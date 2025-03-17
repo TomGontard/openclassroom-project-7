@@ -5,11 +5,11 @@ import styled from 'styled-components'
 import bannerImage from '../../assets/images/about-banner.png'
 
 const AboutWrapper = styled.main`
-  padding: 0 100px;
+    padding: 0 100px;
 
-  @media (max-width: 768px) {
-    padding: 20px;
-  }
+    @media (max-width: 768px) {
+        padding: 20px;
+    }
 `
 
 export default function AboutPage() {

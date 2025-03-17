@@ -6,11 +6,13 @@ import Home from './pages/Home'
 import Apartment from './pages/Apartment'
 import About from './pages/About'
 import Error from './pages/ErrorPage'
+import Header from './components/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+        <Header />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/apartment/:apartmentID" element={<Apartment />} />

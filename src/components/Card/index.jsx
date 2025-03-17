@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 const CardWrapper = styled.li`
   position: relative;
@@ -32,8 +33,11 @@ const CardTitle = styled.h2`
 `
 
 export default function Card({ id, image, title }) {
+    const navigate = useNavigate();
   return (
-    <CardWrapper style={{ backgroundImage: `url(${image})` }}>
+      <CardWrapper
+            style={{ backgroundImage: `url(${image})` }}
+            onClick={() => navigate(`/apartment/${id}`)}>
       <Link to={`/apartment/${id}`}>
         <CardTitle>{title}</CardTitle>
       </Link>

@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import Apartment from './pages/Apartment'
 import About from './pages/About'
-import Error from './pages/Error'
+import Error from './pages/ErrorPage'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

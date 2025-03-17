@@ -12,6 +12,10 @@ const HeaderWrapper = styled.header`
     margin-bottom: 60px;
     color: ${colors.primary};
     font-family: ${fonts.text};
+    
+    @media (max-width: 600px) {
+        margin-bottom: 0px;
+    }
 `
 
 const HomeLogo = styled.img`

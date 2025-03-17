@@ -7,6 +7,7 @@ import Apartment from './pages/Apartment'
 import About from './pages/About'
 import Error from './pages/ErrorPage'
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,7 +19,8 @@ root.render(
             <Route path="/apartment/:apartmentID" element={<Apartment />} />
             <Route path="/about" element={<About />} />
             <Route path="*" element={<Error />} />
-          </Routes>
+        </Routes>
+        <Footer />
     </Router>
   </React.StrictMode>
 );

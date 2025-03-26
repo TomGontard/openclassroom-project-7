@@ -1,7 +1,7 @@
-import Banner from '../../components/Banner'
-import Gallery from '../../components/Gallery'
+import Banner from '../components/Banner'
+import Gallery from '../components/Gallery'
 import styled from 'styled-components'
-import homeBanner from '../../assets/images/home-banner.png'
+import homeBanner from '../assets/images/home-banner.png'
 
 const HomeWrapper = styled.main`
   max-width: 1240px;

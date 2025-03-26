@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import { colors } from '../../utils/style/colors';
-import { fonts } from '../../utils/style/fonts';
+import { colors } from '../utils/style/colors';
+import { fonts } from '../utils/style/fonts';
 
 const ErrorWrapper = styled.div`
   color: ${colors.primary};

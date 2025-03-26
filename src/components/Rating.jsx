@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import enabledStar from '../../assets/images/star-enabled.svg'
-import disabledStar from '../../assets/images/star-disabled.svg'
+import enabledStar from '../assets/images/star-enabled.svg'
+import disabledStar from '../assets/images/star-disabled.svg'
 
 const Star = styled.img`
   width: 36px;

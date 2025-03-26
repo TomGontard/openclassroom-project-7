@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styled from 'styled-components';
-import leftArrow from '../../assets/images/left-arrow.svg';
-import rightArrow from '../../assets/images/right-arrow.svg';
+import leftArrow from '../assets/images/left-arrow.svg';
+import rightArrow from '../assets/images/right-arrow.svg';
 
 const CarouselContainer = styled.div`
   position: relative;

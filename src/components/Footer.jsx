@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { Link } from "react-router-dom"
-import { fonts } from "../../utils/style/fonts"
-import { ReactComponent as Logo } from "../../assets/images/logo.svg"
+import { fonts } from "../utils/style/fonts"
+import { ReactComponent as Logo } from "../assets/images/logo.svg"
 
 const FooterWrapper = styled.footer`
     background-color: #000;

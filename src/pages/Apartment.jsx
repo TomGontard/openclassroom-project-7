@@ -1,9 +1,9 @@
 import { useParams, Navigate } from 'react-router-dom'
-import logements from '../../assets/data/logements.json'
+import logements from '../assets/data/logements.json'
 import styled from 'styled-components'
-import Carousel from '../../components/Carousel'
-import Collapse from '../../components/Collapse'
-import Rating from '../../components/Rating'
+import Carousel from '../components/Carousel'
+import Collapse from '../components/Collapse'
+import Rating from '../components/Rating'
 
 const ApartmentWrapper = styled.main`
     max-width: 1240px;

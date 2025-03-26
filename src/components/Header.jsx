@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
-import logo from '../../assets/images/logo.svg'
+import logo from '../assets/images/logo.svg'
 import styled from 'styled-components'
-import { colors } from '../../utils/style/colors'
-import { fonts } from '../../utils/style/fonts'
+import { colors } from '../utils/style/colors'
+import { fonts } from '../utils/style/fonts'
 
 const HeaderWrapper = styled.header`
     width: 100%;

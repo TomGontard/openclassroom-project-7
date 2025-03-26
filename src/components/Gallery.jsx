@@ -1,5 +1,5 @@
-import logements from '../../assets/data/logements.json'
-import Card from '../Card'
+import logements from '../assets/data/logements.json'
+import Card from './Card'
 import styled from 'styled-components'
 
 const GallerySection = styled.section`

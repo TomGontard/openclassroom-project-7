@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import arrowSvg from '../../assets/images/up-arrow.svg'
+import arrowSvg from '../assets/images/up-arrow.svg'
 import styled from 'styled-components';
 
 export const CollapseWrapper = styled.div`

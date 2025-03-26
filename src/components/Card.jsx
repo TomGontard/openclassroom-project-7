@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom'
+import { fonts } from '../utils/style/fonts'
 
 const CardWrapper = styled.li`
   position: relative;
@@ -27,6 +28,7 @@ const CardTitle = styled.h2`
   bottom: 20px;
   left: 20px;
   color: white;
+  font-family: ${fonts.text};
   font-size: 18px;
   font-weight: 500;
   z-index: 1;

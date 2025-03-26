@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { fonts } from '../utils/style/fonts'
 
 const BannerWrapper = styled.div`
   width: 100%;
@@ -31,7 +32,9 @@ const BannerWrapper = styled.div`
 const BannerTitle = styled.h1`
   position: relative;
   color: white;
-  font-size: 36px;
+  font-family: ${fonts.text};
+  font-size: 48px;
+  font-weight: 500;
   z-index: 2;
 
   @media (max-width: 768px) {

@@ -4,6 +4,8 @@ import styled from 'styled-components'
 import Carousel from '../components/Carousel'
 import Collapse from '../components/Collapse'
 import Rating from '../components/Rating'
+import { colors } from '../utils/style/colors'
+import { fonts } from '../utils/style/fonts'
 
 const ApartmentWrapper = styled.main`
     max-width: 1240px;
@@ -29,8 +31,10 @@ const TitleSection = styled.div`
 `
 
 const ApartmentTitle = styled.h1`
-    color: #FF6060;
+    color: ${colors.primary};
+    font-family: ${fonts.text};
     font-size: 36px;
+    font-weight: 500;
     margin: 0;
 
     @media (max-width: 768px) {
@@ -39,8 +43,10 @@ const ApartmentTitle = styled.h1`
 `
 
 const ApartmentLocation = styled.p`
-    color: #FF6060;
+    color: ${colors.primary};
+    font-family: ${fonts.text};
     font-size: 18px;
+    font-weight: 500;
     margin: 5px 0;
 
     @media (max-width: 768px) {
@@ -55,11 +61,13 @@ const TagContainer = styled.div`
 `
 
 const Tag = styled.span`
-    background-color: #FF6060;
+    background-color: ${colors.primary};
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
+    font-family: ${fonts.text};
     font-size: 14px;
+    font-weight: 500;
 
     @media (max-width: 768px) {
         font-size: 10px;
@@ -98,7 +106,7 @@ const HostImage = styled.img`
 `
 
 const HostName = styled.span`
-    color: #FF6060;
+    color: ${colors.primary};
     text-align: right;
     font-size: 18px;
 

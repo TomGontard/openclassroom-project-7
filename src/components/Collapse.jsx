@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import arrowSvg from '../assets/images/up-arrow.svg'
 import styled from 'styled-components';
+import { colors } from '../utils/style/colors';
+import { fonts } from '../utils/style/fonts';
 
 export const CollapseWrapper = styled.div`
   width: 100%;
@@ -13,10 +15,11 @@ export const CollapseItem = styled.div`
 `
 
 export const CollapseTitle = styled.button`
-  background-color: #FF6060;
+  background-color: ${colors.primary};
   color: white;
   font-size: 24px;
   font-weight: 500;
+  font-family: ${fonts.text};
   padding: 10px 20px;
   width: 100%;
   text-align: left;
@@ -40,9 +43,10 @@ export const ArrowIcon = styled.img`
 
 export const CollapseContent = styled.div`
   background-color: #F6F6F6;
-  color: #FF6060;
+  color: ${colors.primary};
   padding: 20px;
   font-size: 24px;
+  font-family: ${fonts.text};
   line-height: 1.4;
 
   @media (max-width: 600px) {

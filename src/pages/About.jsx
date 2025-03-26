@@ -6,17 +6,23 @@ import bannerImage from '../assets/images/about-banner.png'
 
 const AboutWrapper = styled.main`
     padding: 0 100px;
-
     @media (max-width: 768px) {
         padding: 20px;
     }
+`
+
+const CollapseContainer = styled.div`
+  max-width: 1024px;  // Limiter la largeur des collapses
+  margin: 0 auto;  // Centrer les collapses
 `
 
 export default function AboutPage() {
   return (
     <AboutWrapper>
           <Banner source={bannerImage} />
-          <Collapse data={aboutData} />
+          <CollapseContainer>
+            <Collapse data={aboutData} />
+          </CollapseContainer>
     </AboutWrapper>
   )
 }

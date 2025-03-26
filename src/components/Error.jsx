@@ -55,7 +55,7 @@ export default function Error() {
         <ErrorWrapper>
             <ErrorTitle>404</ErrorTitle>
             <ErrorSubtitle>Oups! La page que vous demandez n'existe pas.</ErrorSubtitle>
-            <ErrorLink visited={true} to="/">Retourner sur la page d’accueil</ErrorLink>
+            <ErrorLink to="/">Retourner sur la page d’accueil</ErrorLink>
         </ErrorWrapper>
     );
 };
